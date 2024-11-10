@@ -1,6 +1,5 @@
 .mainContainer {
-
-    
+ 
     width: 384px;
     height: 522px;
     margin: 8% auto auto auto;
@@ -26,7 +25,6 @@
     margin-top: 8%;
     margin-right: auto;
     margin-left: auto;
-
 }
 .categoryLink {
 
@@ -57,4 +55,23 @@
 
     color: #6B6B6B;
     font-weight: 500;
+}
+.authorProfile {
+
+    display: flex;
+    flex-direction: row;
+    max-width: 39%;
+    margin-top: 2%;
+    margin-left: 4%;  
+}
+.authorImage img {
+
+    max-width: 60%;
+    height: auto;
+}
+.authorName p {
+    
+    font-size: 12px;
+    margin-top: 16%;
+    width: 80px;
 }

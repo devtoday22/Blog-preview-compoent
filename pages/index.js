@@ -41,7 +41,17 @@ export default function Home() {
         </div>
         {/* Author profile component */}
         <div className={styles.authorProfile}>
-          
+          <div className={styles.authorImage}>
+            <Image
+            src="/image-avatar.webp"
+            width={500}
+            height={500}
+            alt="Image of blog author"
+            />
+          </div>
+          <div className={styles.authorName}>
+            <p>Greg Hooper</p>
+          </div>
         </div>
 
       </main>
