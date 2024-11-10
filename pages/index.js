@@ -13,7 +13,18 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-    
+
+      <main className={styles.mainContainer}>
+        <div className={styles.image}>
+        <Image
+          src="/illustration-article.svg"
+          width={500}
+          height={500}
+          alt="Cover image"
+    />
+        </div>
+
+      </main>
     </>
   );
 }

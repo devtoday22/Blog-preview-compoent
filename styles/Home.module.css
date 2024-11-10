@@ -1,0 +1,19 @@
+.mainContainer {
+
+    
+    width: 384px;
+    height: 522px;
+    margin: 8% auto auto auto;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px #111111 solid;
+    box-shadow: 1px 1px 20px #111111;
+}
+.image img {
+
+    width: 90%;
+    height: auto;
+    display: block;
+    margin: 6% auto auto auto;
+    border-radius: 20px;
+}
