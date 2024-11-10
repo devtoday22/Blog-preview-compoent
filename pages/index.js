@@ -32,9 +32,9 @@ export default function Home() {
           <div className={styles.date}>
             Published 21 Dec 2023
           </div>
-          <h1 className={styles.headline}>
-            HTML & CSS foundations
-          </h1>
+          <div className={styles.headline}>
+          <Link href="/dashboard">HTML & CSS foundations</Link>
+          </div>
           <p className={styles.description}>
           These languages are the backbone of every website, defining structure, content, and presentation.
           </p>
