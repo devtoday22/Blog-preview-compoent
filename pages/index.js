@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "@/styles/Home.module.css";
+import Link from "next/link";
 
 
 
@@ -21,7 +22,16 @@ export default function Home() {
           width={500}
           height={500}
           alt="Cover image"
-    />
+        />
+        </div>
+        {/* Head part of card */}
+        <div className={styles.features}>
+          <div className={styles.categoryLink}>
+          <Link href="/dashboard">Learning</Link>
+          </div>
+          <div className={styles.date}>
+            Published 21 Dec 2023
+          </div>
         </div>
 
       </main>

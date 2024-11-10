@@ -17,3 +17,34 @@
     margin: 6% auto auto auto;
     border-radius: 20px;
 }
+.features {
+
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 90%;
+    margin-top: 8%;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+.categoryLink {
+
+    text-align: center;
+    background-color: #F4D04E;
+    width: 30%;
+    padding: 6px;
+    border-radius: 4px;
+}
+.categoryLink a {
+
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-weight: bold;
+}
+.date {
+
+    font-weight: 200;
+    font-size: 14px;
+}
